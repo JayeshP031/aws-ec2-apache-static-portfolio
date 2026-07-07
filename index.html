@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayesh Patil | Cloud &amp; DevOps Engineer</title>
+  <meta name="description" content="Jayesh Patil — aspiring Cloud Computing and DevOps Engineer. BCA graduate skilled in AWS, Linux, Docker, Java, and web development, building real-world cloud and DevOps projects.">
+  <meta name="keywords" content="Jayesh Patil, Cloud Engineer, DevOps Engineer, AWS, Linux, Docker, BCA, Fresher, Portfolio">
+  <meta name="author" content="Jayesh Patil">
+  <link rel="canonical" href="https://jayeshpatil.dev/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jayesh Patil | Cloud &amp; DevOps Engineer">
+  <meta property="og:description" content="Aspiring Cloud Computing and DevOps Engineer building real-world projects in AWS, Linux, Docker, and CI/CD.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta property="og:url" content="https://jayeshpatil.dev/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jayesh Patil | Cloud &amp; DevOps Engineer">
+  <meta name="twitter:description" content="Aspiring Cloud Computing and DevOps Engineer building real-world projects in AWS, Linux, Docker, and CI/CD.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/images/favicon_256.png">
+  <meta name="theme-color" content="#050816">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jayesh Patil",
+    "jobTitle": "Aspiring Cloud & DevOps Engineer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dhule",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "email": "mailto:jayesh.patil0118@gmail.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/jayesh-patil-772332288/",
+      "https://github.com/JayeshP031"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Loading screen -->
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loading-inner">
+      <span class="loading-initials">JP</span>
+      <div class="loading-bar"><span class="loading-progress"></span></div>
+    </div>
+  </div>
+
+  <!-- Custom cursor (disabled on touch via JS) -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner" aria-label="Primary">
+      <a href="#hero" class="nav-logo">JP<span class="nav-logo-dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span class="bar bar-1"></span><span class="bar bar-2"></span><span class="bar bar-3"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#stack" class="nav-link">Stack</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#github" class="nav-link">GitHub</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-sky"></div>
+        <div class="blob blob-purple"></div>
+        <div class="blob blob-teal"></div>
+        <canvas id="particles" aria-hidden="true"></canvas>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 class="hero-name">Jayesh Patil</h1>
+          <p class="hero-role">
+            Aspiring Cloud &amp; DevOps Engineer &mdash;
+            <span id="typing" class="typing"></span><span class="typing-cursor" aria-hidden="true">|</span>
+          </p>
+          <p class="hero-intro">
+            BCA graduate (8.62 CGPA) building a strong foundation in Linux, AWS, Docker, and CI/CD.
+            I like turning infrastructure problems into clean, automated, repeatable solutions.
+          </p>
+
+          <div class="status-card" role="note" aria-label="Current focus">
+            <span class="status-dot"></span>
+            Currently learning: AWS &middot; Linux &middot; Docker &middot; CI/CD
+          </div>
+
+          <div class="hero-actions">
+            <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+            <a href="https://github.com/JayeshP031" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/jayesh-patil-772332288/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#contact" class="btn btn-ghost">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-glow" aria-hidden="true"></div>
+          <img src="assets/images/profile.jpg" alt="Portrait of Jayesh Patil" class="hero-photo" width="720" height="956">
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-eyebrow">About</p>
+        <h2 class="section-title">Where I'm coming from, where I'm headed</h2>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Professional Summary</h3>
+            <p>Motivated and detail-oriented BCA graduate with an 8.62 CGPA and a strong interest in Cloud Computing, DevOps, and Software Development. Skilled in Java, frontend development, Git/GitHub, SQL, and problem-solving.</p>
+          </div>
+          <div class="about-card">
+            <h3>Current Learning</h3>
+            <p>Currently learning AWS Cloud, Linux, Docker, and DevOps tooling while preparing for MCA &mdash; working through a structured, self-paced roadmap covering Linux fundamentals, AWS core services, and infrastructure automation.</p>
+          </div>
+          <div class="about-card">
+            <h3>Cloud &amp; DevOps Journey</h3>
+            <p>Starting from Linux administration and shell scripting fundamentals, moving toward AWS core services, containerization with Docker, and CI/CD pipelines &mdash; building hands-on labs and projects at every stage.</p>
+          </div>
+          <div class="about-card">
+            <h3>Career Vision</h3>
+            <p>Seeking an internship or fresher-level role in Cloud Computing or DevOps where I can apply what I'm building independently to real production infrastructure &mdash; and keep learning from people already doing the work.</p>
+          </div>
+          <div class="about-card">
+            <h3>Personal Values</h3>
+            <p>Problem solving, team collaboration, and clear communication &mdash; I'd rather understand a system properly than memorize a shortcut.</p>
+          </div>
+          <div class="about-card">
+            <h3>Career Objective</h3>
+            <p>Gain hands-on industry experience in software development or cloud technologies, and grow into a role building and maintaining scalable, automated infrastructure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="section section-alt" id="stack">
+      <div class="container">
+        <p class="section-eyebrow">Tech Stack</p>
+        <h2 class="section-title">Tools I use and tools I'm learning</h2>
+
+        <div class="stack-grid">
+          <div class="stack-card">
+            <h3>Languages</h3>
+            <ul class="tag-list">
+              <li>Java</li><li>JavaScript</li><li>SQL</li>
+            </ul>
+          </div>
+          <div class="stack-card">
+            <h3>Frontend</h3>
+            <ul class="tag-list">
+              <li>HTML5</li><li>CSS3</li><li>React.js</li><li>Responsive Design</li>
+            </ul>
+          </div>
+          <div class="stack-card">
+            <h3>Databases</h3>
+            <ul class="tag-list">
+              <li>MySQL</li>
+            </ul>
+          </div>
+          <div class="stack-card stack-card-accent">
+            <h3>Cloud &amp; DevOps</h3>
+            <ul class="tag-list">
+              <li>AWS Cloud</li><li>Linux</li><li>Docker</li><li>CI/CD Basics</li><li>Networking Fundamentals</li>
+            </ul>
+          </div>
+          <div class="stack-card">
+            <h3>Tools &amp; Version Control</h3>
+            <ul class="tag-list">
+              <li>Git</li><li>GitHub</li><li>VS Code</li>
+            </ul>
+          </div>
+          <div class="stack-card">
+            <h3>Soft Skills</h3>
+            <ul class="tag-list">
+              <li>Problem Solving</li><li>Team Collaboration</li><li>Communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <p class="section-eyebrow">Education</p>
+        <h2 class="section-title">Academic background</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2026</span>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p>Systel Institute of Management &amp; Research, Dhule</p>
+              <p class="timeline-meta">CGPA: 8.62</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2023</span>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p>Maharashtra State Board</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2021</span>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <p>Maharashtra State Board</p>
+              <p class="timeline-meta">Percentage: 81.40%</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <p class="section-eyebrow">Certifications</p>
+        <h2 class="section-title">In progress</h2>
+        <div class="cert-placeholder">
+          <p>No certifications completed yet &mdash; actively building toward AWS and cloud certifications as part of an ongoing self-study roadmap. This section will update as certifications are earned.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-eyebrow">Projects</p>
+        <h2 class="section-title">Things I've built</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image-placeholder" aria-hidden="true">
+              <span>Smart Task Manager</span>
+            </div>
+            <div class="project-body">
+              <h3>Smart Task Manager Web Application</h3>
+              <p>A responsive task management web app for organizing daily activities, built with vanilla HTML5, CSS3, and JavaScript.</p>
+              <ul class="project-features">
+                <li>Full CRUD operations via DOM manipulation</li>
+                <li>Task prioritization and filtering</li>
+                <li>Persistent storage using browser LocalStorage</li>
+                <li>Deployed on GitHub Pages</li>
+              </ul>
+              <div class="project-tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/JayeshP031/smart-task-manager" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">Source Code</a>
+                <a href="#" class="btn btn-primary btn-sm" aria-disabled="true" tabindex="-1" title="Live demo link coming soon">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-placeholder">
+            <div class="project-body project-body-center">
+              <h3>More projects in progress</h3>
+              <p>Currently building additional Cloud and DevOps projects &mdash; Linux administration labs, AWS deployments, and automation scripts. This space will grow as they ship.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <p class="section-eyebrow">Experience</p>
+        <h2 class="section-title">Where I am right now</h2>
+        <div class="experience-card">
+          <p>Currently focusing on Cloud Computing, DevOps, and Software Development while building real-world projects and strengthening Linux, AWS, Docker, and CI/CD skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GITHUB DASHBOARD -->
+    <section class="section" id="github">
+      <div class="container">
+        <p class="section-eyebrow">GitHub</p>
+        <h2 class="section-title">Open-source footprint</h2>
+
+        <div class="github-grid">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=JayeshP031&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&icon_color=8B5CF6&text_color=94A3B8"
+            alt="Jayesh Patil's GitHub stats: repositories, stars, and commits"
+            loading="lazy" class="github-img">
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=JayeshP031&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8&text_color=94A3B8"
+            alt="Jayesh Patil's most used programming languages on GitHub"
+            loading="lazy" class="github-img">
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=JayeshP031&theme=transparent&hide_border=true&ring=38BDF8&fire=8B5CF6&currStreakLabel=14B8A6"
+            alt="Jayesh Patil's GitHub contribution streak"
+            loading="lazy" class="github-img github-img-wide">
+        </div>
+
+        <div class="github-cta">
+          <a href="https://github.com/JayeshP031" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section section-alt" id="resume">
+      <div class="container container-narrow">
+        <p class="section-eyebrow">Resume</p>
+        <h2 class="section-title">Full resume</h2>
+        <div class="resume-card">
+          <p>Download the full resume for a complete breakdown of skills, projects, and education.</p>
+          <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="section-eyebrow">Contact</p>
+        <h2 class="section-title">Let's talk</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:jayesh.patil0118@gmail.com">jayesh.patil0118@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+918010858767">+91 80108 58767</a>
+              </li>
+              <li>
+                <span class="contact-label">Location</span>
+                <span>Dhule, Maharashtra, India</span>
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/jayesh-patil-772332288/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jayesh-patil</a>
+              </li>
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/JayeshP031" target="_blank" rel="noopener noreferrer">github.com/JayeshP031</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap">
+            <div id="contactFormStatus" class="form-status" role="status" aria-live="polite"></div>
+            <div class="contact-form">
+              <div class="form-row">
+                <label for="cf-name">Name</label>
+                <input type="text" id="cf-name" name="name" required autocomplete="name">
+              </div>
+              <div class="form-row">
+                <label for="cf-email">Email</label>
+                <input type="email" id="cf-email" name="email" required autocomplete="email">
+              </div>
+              <div class="form-row">
+                <label for="cf-message">Message</label>
+                <textarea id="cf-message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="button" id="cf-submit" class="btn btn-primary btn-send">
+                <span>Send Message</span>
+              </button>
+              <p class="form-hint">Opens your email app with this message pre-filled &mdash; no data is stored or sent anywhere else.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-divider" aria-hidden="true"></div>
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Jayesh Patil. Built with HTML, CSS &amp; JavaScript.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/JayeshP031" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+        <a href="https://www.linkedin.com/in/jayesh-patil-772332288/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="mailto:jayesh.patil0118@gmail.com" aria-label="Email Jayesh">Email</a>
+      </div>
+      <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
