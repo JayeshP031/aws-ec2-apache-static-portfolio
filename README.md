@@ -140,13 +140,13 @@ portfolio/
 
 ## EC2 Instance
 
-![EC2](docs/screenshots/10 live portfolio homepage.jpg)
+![EC2](docs/screenshots/01-ec2-instance.jpg)
 
 ---
 
 ## Security Group
 
-![Security Group](docs/screenshots/02-security-group.png)
+![Security Group](docs/screenshots/02-security-group.jpg)
 
 ---
 
