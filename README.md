@@ -152,13 +152,13 @@ portfolio/
 
 ## SSH Connection
 
-![SSH](docs/screenshots/03-ssh-connected.png)
+![SSH](docs/screenshots/03-ssh-connected.jpg)
 
 ---
 
 ## Apache Running
 
-![Apache](docs/screenshots/04-apache-running.png)
+![Apache](docs/screenshots/04-apache-running.jpg)
 
 ---
 
