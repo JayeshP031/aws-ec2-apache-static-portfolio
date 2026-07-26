@@ -1,45 +1,198 @@
-# Jayesh Patil — Portfolio
+# 🌐 Jayesh Patil – Portfolio Website
 
-Personal portfolio website for Jayesh Patil, aspiring Cloud Computing & DevOps Engineer.
+<p align="center">
+  <img src="docs/screenshots/05-live-portfolio.png" alt="Portfolio Preview" width="100%">
+</p>
 
-Built with plain HTML5, CSS3, and vanilla JavaScript — no frameworks, no build step.
+<p align="center">
+  <strong>A modern, responsive portfolio website showcasing my Cloud & DevOps journey.</strong>
+</p>
 
-## Structure
+<p align="center">
+  <a href="https://jayeshp031.github.io/portfolio/">🌍 Live Website</a> •
+  <a href="https://github.com/JayeshP031">💻 GitHub</a> •
+  <a href="https://www.linkedin.com/in/jayesh-patil-772332288/">🔗 LinkedIn</a>
+</p>
 
+---
+
+# 📖 About the Project
+
+This repository contains the source code for my personal portfolio website.
+
+The website is built using **HTML, CSS, and JavaScript** and deployed on **AWS EC2 (Amazon Linux 2023)** using the **Apache HTTP Server**.
+
+The goal of this project is to demonstrate both frontend development skills and practical cloud deployment experience.
+
+---
+
+# 🚀 Live Demo
+
+**Website:**  
+jayeshp031.github.io/portfolio/
+
+---
+
+# 🏗️ Deployment Architecture
+
+```text
+User Browser
+      │
+      ▼
+Public IPv4 Address
+      │
+      ▼
+AWS EC2 Instance
+(Amazon Linux 2023)
+      │
+      ▼
+Apache HTTP Server (httpd)
+      │
+      ▼
+Portfolio Website
 ```
-Portfolio/
+
+---
+
+# 🛠️ Technologies Used
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Cloud
+
+- AWS EC2
+- Amazon Linux 2023
+- Apache HTTP Server
+
+## Tools
+
+- Git
+- GitHub
+- VS Code
+- Git Bash
+
+---
+
+# ✨ Features
+
+- Responsive Design
+- Modern UI
+- Mobile Friendly
+- Smooth Scrolling
+- Project Showcase
+- Skills Section
+- Contact Section
+- Resume Download
+- Fast Loading
+- AWS Hosted
+
+---
+
+# 📂 Project Structure
+
+```text
+portfolio/
+│
+├── assets/
+│
+├── docs/
+│   └── screenshots/
+│
 ├── index.html
 ├── style.css
 ├── script.js
-├── README.md
 ├── favicon.ico
-├── assets/
-│   ├── images/       (profile photo)
-│   ├── icons/
-│   ├── fonts/
-│   ├── resume.pdf
-│   └── screenshots/
 ├── robots.txt
 ├── sitemap.xml
-└── LICENSE
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
-## Running locally
+---
 
-No build tools needed — just open `index.html` in a browser, or serve the folder with any static server, e.g.:
+# ☁️ AWS Deployment Steps
 
-```bash
-python3 -m http.server 8080
-```
+1. Launch an EC2 instance using Amazon Linux 2023.
+2. Configure Security Groups (SSH and HTTP).
+3. Connect to the instance using SSH.
+4. Update the system packages.
+5. Install Apache HTTP Server.
+6. Enable and start the Apache service.
+7. Upload the portfolio files.
+8. Copy files to `/var/www/html`.
+9. Set proper ownership and permissions.
+10. Access the website using the EC2 public IP.
 
-Then visit `http://localhost:8080`.
+---
 
-## Before deploying
+# 📸 Project Screenshots
 
-- Replace `https://jayeshpatil.dev/` in `index.html`, `sitemap.xml`, and `robots.txt` with the real hosting URL (e.g. a GitHub Pages URL).
-- Add the live demo URL for the Smart Task Manager project once available.
-- Update the Certifications and Experience sections as those change.
+## Portfolio Homepage
 
-## Deployment
+![Portfolio](docs/screenshots/05-live-portfolio.png)
 
-Works as-is on GitHub Pages, Netlify, Vercel, or any static host — no server-side code required.
+---
+
+## EC2 Instance
+
+![EC2](docs/screenshots/01-ec2-instance.png)
+
+---
+
+## Security Group
+
+![Security Group](docs/screenshots/02-security-group.png)
+
+---
+
+## SSH Connection
+
+![SSH](docs/screenshots/03-ssh-connected.png)
+
+---
+
+## Apache Running
+
+![Apache](docs/screenshots/04-apache-running.png)
+
+---
+
+# 📚 Key Learning Outcomes
+
+- Linux command-line administration
+- AWS EC2 provisioning
+- Apache HTTP Server configuration
+- SSH remote access
+- Website deployment
+- File permissions and ownership
+- Git version control
+- GitHub repository management
+
+---
+
+# 🔮 Future Improvements
+
+- Deploy using a custom domain
+- Configure HTTPS with SSL
+- Add GitHub Actions for automated deployment
+- Deploy behind a reverse proxy
+- Improve performance and accessibility
+
+---
+
+# 👨‍💻 Author
+
+**Jayesh Patil**
+
+- GitHub: https://github.com/JayeshP031
+- LinkedIn: https://www.linkedin.com/in/jayesh-patil-772332288/
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
