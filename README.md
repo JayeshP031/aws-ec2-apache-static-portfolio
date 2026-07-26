@@ -1,7 +1,7 @@
 # 🌐 Jayesh Patil – Portfolio Website
 
 <p align="center">
-  <img src="docs/screenshots/05-live-portfolio.png" alt="Portfolio Preview" width="100%">
+  <img src="docs/screenshots/10 live portfolio homepage.jpg" alt="Portfolio Preview" width="100%">
 </p>
 
 <p align="center">
@@ -134,13 +134,13 @@ portfolio/
 
 ## Portfolio Homepage
 
-![Portfolio](docs/screenshots/05-live-portfolio.png)
+![Portfolio](docs/screenshots/10 live portfolio homepage.jpg)
 
 ---
 
 ## EC2 Instance
 
-![EC2](docs/screenshots/01-ec2-instance.png)
+![EC2](docs/screenshots/10 live portfolio homepage.jpg)
 
 ---
 
