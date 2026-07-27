@@ -158,7 +158,7 @@ portfolio/
 
 ## Apache Running
 
-![Apache](docs/screenshots/04-apache-running.jpg)
+![Apache](docs/screenshots/07-Apache-running.jpg)
 
 ---
 
